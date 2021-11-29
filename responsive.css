@@ -1,20 +1,16 @@
 @media screen and (max-width: 420px){
-    /* LEZIONI */
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* BACKGROUND COLOR */
     #lezioni .row{
         background-color: yellow;
     }
-    #lezioni .right{
-        clear: both;
+
+    #why .row{
+        background-color: yellow;
     }
-    h1{
-        text-align: center;
-        width: 50%;
-    }
-    /* SPETS */
-    #steps .central{
-        clear: both;
-    }
-    #steps .right{
-        clear: both;
-    }
-}
+ } 
+    

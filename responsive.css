@@ -1,16 +1,37 @@
 @media screen and (max-width: 420px){
-    .row{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
     }
-    /* BACKGROUND COLOR */
-    #lezioni .row{
-        background-color: yellow;
+    .row{
+        margin-top: 0;
+        width: 100%;
     }
 
-    #why .row{
-        background-color: yellow;
+    #why .row > .first,
+    #why .row > .second,
+    #why .row > .third,
+    #lezioni .row>.left,
+    #lezioni .row>.right,
+    #steps .row>.central,
+    #steps .row>.right,
+    #steps .row>.left{
+        width: 100%;
+    }
+
+    img{
+        height: 150px;
+        margin-top: 30px;
+    }
+
+    .container{
+        padding: 15px;
+    }
+
+    #why.container,
+    #lezioni.container{
+        background-color: rgb(241,242,209);
     }
  } 
     
